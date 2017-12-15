@@ -72,4 +72,13 @@
  *  @return  压缩后图片的二进制
  */
 + (NSData *)compressImage:(UIImage *)image toMaxLength:(NSInteger) maxLength maxWidth:(NSInteger)maxWidth;
+
+/**
+ *  设置图片圆角
+ *
+ *  @return 修改后的图片
+ */
+- (UIImage *)cutCircleImage;
+
+。
 @end
